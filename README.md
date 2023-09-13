@@ -1,9 +1,9 @@
 # Angular_Workshop_FOT <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>
 
-##Requirements
-*Node js
-*Angular CLI
-*VS Code IDE
+## Requirements
+* Node js
+* Angular CLI
+* VS Code IDE
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
