@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <app-navbar></app-navbar>
+        </div>
+        <br><br><br>
+        <div class="row">
+            <div class="col-md-6 registration-image"></div>
+            <div class="col-md-6">
+                <div class="registration-form">
+                    <h2>Student Registration</h2>
+                    <!-- <form (ngSubmit)="onSubmit()" #registrationForm="ngForm"> -->
+                    <form (ngSubmit)="onSubmit(registrationForm)" #registrationForm="ngForm">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)]="user.firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)]="user.lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="age" class="form-label">Age</label>
+                            <input type="number" class="form-control" id="age" name="age" [(ngModel)]="user.age" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="gender" class="form-label">Gender</label>
+                            <input type="text" class="form-control" id="gender" name="gender" [(ngModel)]="user.gender" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="user.email" required>
+                        </div>
+                        <div class="alert alert-success" *ngIf="successMessage">
+                            {{ successMessage }}
+                        </div>
+                          
+                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

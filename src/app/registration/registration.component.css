@@ -1,0 +1,39 @@
+
+.registration-form {
+    padding: 20px;
+}
+.registration-image {
+    background-image: url('../../assets/reg.png');
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.registration-form {
+        padding: 20px;
+    }
+
+    /* Style for form labels */
+    .form-label {
+        font-weight: bold;
+        color: #333; /* Text color */
+    }
+
+    /* Style for form input fields */
+    .form-control {
+        border: 2px solid #ccc; /* Border color */
+        border-radius: 5px; /* Border radius */
+        padding: 10px; /* Padding */
+    }
+
+    /* Style for the submit button */
+    .btn-primary {
+        background-color: #007bff; /* Button background color */
+        border-color: #007bff; /* Button border color */
+    }
+
+    /* Style for the submit button on hover */
+    .btn-primary:hover {
+        background-color: #0056b3; /* Button background color on hover */
+        border-color: #0056b3; /* Button border color on hover */
+    }

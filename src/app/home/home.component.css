@@ -1,0 +1,43 @@
+    /* Apply CSS styles to the container to make it full-screen */
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    /* Set the background image to cover the entire viewport */
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/Home.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* Style the container for the text and button */
+    .text-button-container {
+        position: absolute;
+        bottom: 135px; 
+        left: 200px; 
+    }
+
+    
+    .register-text {
+        font-size: 24px;
+        color: #fff; 
+        font-weight: bolder;
+    }
+
+    /* Style the "Enroll" button */
+    .enroll-button {
+        padding: 10px 20px; 
+        font-size: 18px; 
+        background-color: #007bff; 
+        color: #fff; 
+        border: none;
+        cursor: pointer;
+    }
