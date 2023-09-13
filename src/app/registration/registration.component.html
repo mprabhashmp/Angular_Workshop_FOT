@@ -19,11 +19,11 @@
                     <form (ngSubmit)="onSubmit(registrationForm)" #registrationForm="ngForm">
                         <div class="mb-3">
                             <label for="firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)]="user.firstName" required>
+                            <input type="text" class="form-control" id="firstName" name="firstname" [(ngModel)]="user.firstname" required>
                         </div>
                         <div class="mb-3">
                             <label for="lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)]="user.lastName" required>
+                            <input type="text" class="form-control" id="lastName" name="lastname" [(ngModel)]="user.lastname" required>
                         </div>
                         <div class="mb-3">
                             <label for="age" class="form-label">Age</label>

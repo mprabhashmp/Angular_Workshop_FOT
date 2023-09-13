@@ -18,8 +18,8 @@ export class RegistrationComponent {
     if (form.valid) {
       // Assuming you have a User class to represent the user data
       const user = {
-        firstName: form.value.firstName,
-        lastName: form.value.lastName,
+        firstname: form.value.firstname,
+        lastname: form.value.lastname,
         age: form.value.age,
         gender: form.value.gender,
         email: form.value.email,
