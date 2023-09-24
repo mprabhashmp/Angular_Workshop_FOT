@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class RegistrationService {
 
-  private baseUrl = 'http://localhost:8080/api/students/add'; 
+  private baseUrl = 'http://api.encode99.com.lk/createdata'; 
 
   constructor(private http: HttpClient) {}
 
