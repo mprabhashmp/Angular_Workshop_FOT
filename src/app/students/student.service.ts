@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class StudentService {
 
-  private baseUrl = 'http://localhost:8080/api/students/list';
+  private baseUrl = 'http://api.encode99.com.lk/getdata';
 
   constructor(private http: HttpClient) {}
 
